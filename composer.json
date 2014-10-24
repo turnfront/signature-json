@@ -1,0 +1,25 @@
+{
+  "name": "turnfront/signature-json",
+  "description": "",
+  "license": "MIT",
+  "authors": [
+    {
+
+    },
+    {
+      "name": "Andrew Rumble",
+      "email": "andrew@turnfront.com"
+    }
+
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "illuminate/support": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Turnfront\\SignatureJson": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
